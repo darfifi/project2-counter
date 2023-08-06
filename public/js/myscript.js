@@ -1,33 +1,14 @@
 let srButton = document.getElementById('resetButton');
 let digits = document.getElementsByClassName('digit');
-
-
 let counter = 0;
-
 
 srButton.onclick = function() {
     // Control start/reset button
     let text = srButton.innerText;
     if (text == "START") {
         startCounter();
-
-        
-
-
-
-        // to verify code to apply!!
-
-
-
-
-
-
     } else resetCounter();
 }
-
-
-
-
 
 function startCounter() {
     let k=1;
